@@ -1,0 +1,151 @@
+
+.profile{
+	height : 300px;
+	width:90%;
+	margin : 1rem auto;
+    padding: 7px;
+    max-width: var(--max-size);
+    display: flex;
+    justify-content: center;
+}
+.one_profile{
+    height: 200px;
+    width: 33%;
+    color: #dbdbdb;
+    margin-top: 100px;
+}
+.two{
+    height: 300px;
+    width: 57%;
+    padding-top: 30px;
+    margin-left: -20px;
+}
+.three{
+    height: 300px;
+    width: 10%;
+}
+.seungchan{
+    margin-top: -80px;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border-style: double;
+    border-width: 9px;
+}
+.name{
+    font-size: 27px;
+    margin-left: 15px;   
+}
+.edit{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: hsl(0, 0%, 98%);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.edit:hover{
+    background-color: hsl(0, 0%, 95%);
+}
+.cog{
+    margin-left: 10px;
+}
+.board{
+    font-size: 16px;
+    margin-left: 13px;
+}
+.num{
+    font-size: 200;
+    font-weight: bold;
+}
+.blue_1{
+    font-size: 16px;
+    margin-left: 13px;
+    color: rgb(25, 58, 126);
+}
+.blue_2{
+    font-size: 16px;
+    margin-left: 13px;
+    font-weight: 600;
+    color: rgb(25, 58, 126);
+}
+.lion{
+}
+.profile_main{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.profile_story{
+    width: 300px;
+    height : 13vh;
+    max-width: var(--max-size);
+    display: flex;
+}
+.one_mf{
+    width: 75px;
+    margin: 3px;
+}
+.facesf{
+    height: 60px;
+    width: 60px;
+    margin-left: 7.5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-left-color: rgb(232, 136, 79);
+    border-top-color: #cc538d;
+    border-right-color: #cd538a;
+    border-bottom-color: #e58148;
+}
+.infof{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.za{
+    display: flex;
+}
+
+
+
+.exp-containerp {
+    /*코드작성*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    /*가운데 정렬*/
+  }
+  .exp-itemp:hover {
+    opacity: 0.7;
+  }
+  .exp-itemp:active {
+    opacity: 0.3;
+  }
+  .img_squarep {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+  }
+  .img_squarep img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  @media (max-width: 600px) {
+    .exp-containerp {
+      gap: 1px;
+    }
+  }
+  .foot{
+      margin-top: 20px;
+  }

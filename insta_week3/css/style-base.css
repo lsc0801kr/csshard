@@ -1,0 +1,64 @@
+.navbar a {
+	color:black;
+}
+/*focus는  클릭 되어지는 동안*/
+.navbar a:active{
+	opacity: 0.5;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	border-bottom: 1px solid var(--color-border);
+	background-color: white;
+}
+.nav-brand img {
+	position: relative;
+	top:0.5rem;
+	left:0.5rem;
+	width: 100px;
+	margin-right:3rem;
+}
+.nav-item {
+	display: flex;
+}
+.nav-item li {
+	font-size: 2.5rem;
+	list-style: none;
+	margin-left: 1.5rem;
+}
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	width: 100%;
+	max-width: var(--max-size);
+	margin: 0 auto;
+}
+.nav-search input {
+	border: 0.5px solid var(--color-border);
+	outline: none;
+	padding: 0.5rem;
+	background-color: var(--color-gray);
+	width:200px;
+	text-align: center;
+}
+
+/*input태그의 placeholder를 선택한다.*/
+.nav-search input::placeholder{
+	font-size: var(--font-small);
+	font-weight: 300;
+	color:gray;
+}
+/*focus는 input태그가 활성화 됐을때*/
+.nav-search input:focus{
+	text-align: left;
+}
+/*미디어쿼리! 나중에 배울거임*/
+@media(max-width:600px) {
+	.nav-search {
+		display: none;
+	}
+}
